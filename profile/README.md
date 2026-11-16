@@ -37,11 +37,14 @@ The goal is simple: **build software that demonstrates how real systems are desi
 
 | Project | What it is | Focus |
 |---|---|---|
+| [Masroof](https://github.com/The-Null-Catchers/Masroof) | Personal finance and expense management | Budgeting, transactions, mobile and web |
+| [FitTrack](https://github.com/The-Null-Catchers/FitTrack) | Fitness tracking platform | Activity tracking, mobile experience, administration |
 | [TaskPilot](https://github.com/The-Null-Catchers/TaskPilot) | Modern project and task management platform | Realtime collaboration, workflows, analytics |
 | [DocMind](https://github.com/The-Null-Catchers/DocMind) | AI-powered document intelligence workspace | RAG, embeddings, document processing |
 | [VaultPass](https://github.com/The-Null-Catchers/VaultPass) | Security-focused password manager | Encryption, authentication, secure sharing |
 | [ChessCoach AI](https://github.com/The-Null-Catchers/ChessCoach-AI) | Intelligent chess training platform | Chess analysis, AI coaching, personalization |
 | [CloudDeck](https://github.com/The-Null-Catchers/CloudDeck) | Server and infrastructure management platform | Containers, agents, realtime operations |
+| [DeployForge](https://github.com/The-Null-Catchers/DeployForge) | Self-hosted application deployment platform | BuildKit, health checks, rollback and reconciliation |
 | [PulseMesh](https://github.com/The-Null-Catchers/PulseMesh) | Realtime communication platform | Messaging, presence, events, collaboration |
 | [StreamForge](https://github.com/The-Null-Catchers/StreamForge) | Video processing and streaming platform | FFmpeg, HLS, media pipelines |
 | [SearchForge](https://github.com/The-Null-Catchers/SearchForge) | Developer-focused search engine platform | Crawling, indexing, BM25, typo tolerance |
