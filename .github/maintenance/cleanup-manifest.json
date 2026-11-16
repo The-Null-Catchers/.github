@@ -1,0 +1,17 @@
+{
+  "repository": "The-Null-Catchers/.github",
+  "defaultBranch": "main",
+  "baseSHA": "8d086110a83ba04ce102a967c062b2fac9527a35",
+  "backupTag": "cleanup-backup-2026-11-16",
+  "delete": [
+    {
+      "name": "maintenance/repo-hygiene-20261116",
+      "sha": "2171e7a00b08525d44381c31d50fbc0c86770055",
+      "reason": "merged-cleanup-pr"
+    }
+  ],
+  "status": "Explicitly approved by user: archive these audited refs before deletion",
+  "archiveParents": [
+    "2171e7a00b08525d44381c31d50fbc0c86770055"
+  ]
+}
