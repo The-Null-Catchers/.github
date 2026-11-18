@@ -1,61 +1,61 @@
-# .github — خطة البورتفيليو
+# .github portfolio roadmap
 
-مرجع التقييم الأساسي: 17 نوفمبر 2026. تحديث نشر الخطة داخل المستودع: 18 نوفمبر 2026.
+Baseline reviewed on November 17, 2026. Repository roadmap published on November 18, 2026.
 
-الخطة خاصة بهذا المستودع، ومستخلصة من خطة Null Catchers المشتركة. وصف «الموجود الموثق» يعكس المراجعة بتاريخها؛ تحقّق من الكود ووثائق الحالة الحالية قبل إنشاء مهمة جديدة. لا تعِد تنفيذ ميزة موجودة، ولا تعتبر وجود تعريف CI دليلًا على نجاح تشغيله.
+This roadmap applies to this repository and follows the shared Null Catchers portfolio plan. Verify the documented state against the current code and runs before starting work.
 
-**تقدير شريحة العرض الأولى:** 5–8 ساعات. التقدير تخطيطي لمطور يعرف المشروع، ويستثني انتظار حسابات المتاجر والمراجعات الخارجية وتجهيز بيئة الهدف. لا يغطي جميع بنود P2.
+**Estimated initial demo effort** 5–8 hours for a developer familiar with the project. The estimate excludes external reviews, store accounts, target environment setup, and later milestones.
 
-## الأولويات الخاصة بالمشروع
+## Project priorities
 
-**الموجود المتحقق:** `profile/README.md` يعرض المؤسسة والمشاريع والتقنيات. المستودع مساند للبورتفيليو، وليس تطبيقًا يحتاج database أو API.
+**Documented state** The organization profile introduces its projects and technologies. This repository provides the portfolio index and profile.
 
-**P0 — واجهة المؤسسة** جهّز بطاقات عرض لثلاثة مشاريع بعد تثبيت روابط أدلتها ومسارات إعادة التجربة.
+**P0 — Demo** Prepare cards for three featured projects once their evidence and reproduction steps are ready.
 
-**P1 — عملية قابلة للتكرار:** أضف قالب issue للمشكلة/الدليل/معيار الإنجاز وقالب PR للتغيير/التحقق/الأثر، بعد مراجعة القوالب الموجودة إن أضيفت لاحقًا. أضف index لخريطة الخطط، وفحص روابط يمنع بقاء روابط demo أو artifacts منتهية.
+**P1 — Validation and depth** Review the existing issue and PR templates before adding acceptance criteria, evidence, impact, and verification fields. Maintain the roadmap index and check demo and artifact links for expiry.
 
-**P2 — لاحقًا:** reusable workflows مشتركة بحذر؛ استخرج فقط خطوات متكررة متطابقة فعلًا. لا تجبر Laravel وGo وPython وFlutter على pipeline واحد، ولا تضف PAT واسع الصلاحية لتسهيل auto-merge.
+**P2 — Later** Extract reusable workflows only from identical steps. Keep CI appropriate for each stack and use narrowly scoped permissions.
 
-**معيار الإنجاز:** الزائر يصل خلال نقرتين إلى تجربة ودليل لواحد من المشاريع الرئيسية، الروابط صالحة، والإنجاز منسوب إلى أصحابه دون اختراع فريق أو مستخدمين أو نتائج.
+**Acceptance criteria** A visitor reaches a featured project’s demo and evidence within two clicks. Links work and credits are verifiable.
 
-**الديمو:** صفحة المؤسسة → مشروع رئيسي → walkthrough → architecture → CI/release. **الأدلة:** [Profile](https://github.com/The-Null-Catchers/.github/blob/main/profile/README.md).
+**Demo scenario** Organization profile → featured project → walkthrough → architecture → CI or release. [Profile](https://github.com/The-Null-Catchers/.github/blob/main/profile/README.md).
 
-## الدفعة التالية
+## Next milestones
 
-| ترتيب التنفيذ | المستودعات | المطلوب قبل العرض |
+| Priority | Projects | Evidence before featuring |
 |---|---|---|
-| تثبيت أدلة المشاريع الأقرب إلى العرض | [DocMind](https://github.com/The-Null-Catchers/DocMind/blob/main/PORTFOLIO_ROADMAP.md)، [ChessCoach-AI](https://github.com/The-Null-Catchers/ChessCoach-AI/blob/main/PORTFOLIO_ROADMAP.md)، [GeoPulse](https://github.com/The-Null-Catchers/GeoPulse/blob/main/PORTFOLIO_ROADMAP.md) | تسجيل موثق من إصدار معروف، وتعليمات تجربة، وذكر حدود السيناريو المعروض. |
-| إغلاق فجوات التحقق على الأجهزة والأدلة العربية | [FitTrack](https://github.com/The-Null-Catchers/FitTrack/blob/main/PORTFOLIO_ROADMAP.md)، [TaskPilot](https://github.com/The-Null-Catchers/TaskPilot/blob/main/PORTFOLIO_ROADMAP.md)، [Masroof](https://github.com/The-Null-Catchers/Masroof/blob/main/PORTFOLIO_ROADMAP.md) | دليل الجهاز أو OCR الفعلي، وسجل نتائج مرتبط بـSHA. |
-| اعتماد نطاق مشروع جديد | [StockFlow](https://github.com/The-Null-Catchers/StockFlow/blob/main/PORTFOLIO_ROADMAP.md) | مراجعة المسودة واعتماد الأدوار وسياسة الرصيد قبل بدء الكود. |
+| Finalize the demos closest to publication | [DocMind](https://github.com/The-Null-Catchers/DocMind/blob/main/PORTFOLIO_ROADMAP.md), [ChessCoach-AI](https://github.com/The-Null-Catchers/ChessCoach-AI/blob/main/PORTFOLIO_ROADMAP.md), [GeoPulse](https://github.com/The-Null-Catchers/GeoPulse/blob/main/PORTFOLIO_ROADMAP.md) | A recording from a known revision, reproduction steps, and the demo’s scope. |
+| Close device and Arabic evidence gaps | [FitTrack](https://github.com/The-Null-Catchers/FitTrack/blob/main/PORTFOLIO_ROADMAP.md), [TaskPilot](https://github.com/The-Null-Catchers/TaskPilot/blob/main/PORTFOLIO_ROADMAP.md), [Masroof](https://github.com/The-Null-Catchers/Masroof/blob/main/PORTFOLIO_ROADMAP.md) | Device or real OCR evidence and a results record tied to a commit SHA. |
+| Approve a new project scope | [StockFlow](https://github.com/The-Null-Catchers/StockFlow/blob/main/PORTFOLIO_ROADMAP.md) | Review the draft and approve roles and balance rules before implementation. |
 
-تُنشر بطاقة المشروع عند وجود رابط خطة ورابط إصدار أو تشغيل يمكن التحقق منه، وطريقة لإعادة التجربة. تفحص الروابط من جلسة زائر. تظل الخطط الأصلية للمشاريع الأخرى متاحة في الفهرس أدناه.
+Publish a project card once it has a roadmap, a verifiable release or run, and reproduction steps. Check the links while signed out.
 
-## بوابة قبول نسخة البورتفيليو
+## Portfolio acceptance checklist
 
-- [ ] يستطيع شخص آخر تشغيل المسار الرئيسي من checkout نظيف، باتباع README، دون أسرار شخصية.
-- [ ] توجد قصة واحدة مكتملة: مستخدم محدد، مشكلة محددة، ومسار بداية إلى نتيجة محفوظة.
-- [ ] ينجح اختبار للمسار الرئيسي وحالة فشل مهمة، وتُختبر حدود الصلاحيات حيث توجد حسابات متعددة.
-- [ ] توجد بيانات عرض اصطناعية معلنة، قابلة لإعادة الإنشاء؛ ولا توجد بيانات عملاء أو أسرار في اللقطات.
-- [ ] توجد 4–6 لقطات حقيقية أو العدد الملائم للأداة، وفيديو 60–120 ثانية، وروابط تعمل. تُلتقط الأدلة من إصدار معروف.
-- [ ] README يوضح المزايا الفعلية، طريقة التشغيل، الرسم المعماري، القيود، وروابط الاختبارات والديمو.
-- [ ] Case study قصيرة تشرح قرارين هندسيين، بديلًا جرى استبعاده ولماذا، وفشلًا حقيقيًا وكيف يعالجه النظام.
-- [ ] صفحة Release تسجل SHA وCI والمتطلبات والقيود. لا تُنشر أرقام أداء دون workload وعتاد وطريقة قياس.
-- [ ] حُسمت سياسة الترخيص ونسب المساهمات قبل التوزيع؛ لا نختار ترخيصًا تلقائيًا لجميع المستودعات.
+- [ ] Another person can reproduce the primary workflow from a clean checkout using the README and test credentials or fixtures.
+- [ ] The demo tells one complete story with a defined user, problem, and saved result.
+- [ ] Tests cover the main flow, an important failure, and access boundaries when multiple accounts are involved.
+- [ ] Demo data is labeled synthetic and reproducible. Review screenshots and recordings for secrets and customer data.
+- [ ] Include four to six real screenshots where appropriate, a 60–120 second recording, and working links. Identify the revision used for capture.
+- [ ] The README describes implemented capabilities, setup, architecture, limits, tests, and the demo.
+- [ ] A short case study explains two engineering decisions, a considered alternative, and how the system handles an actual failure.
+- [ ] Release evidence records the commit SHA, CI, prerequisites, and limits. Performance data includes workload, hardware, and method.
+- [ ] Licensing and contributor attribution are settled before distribution. Choose the license for each repository individually.
 
-الديمو المستضاف مفيد وليس شرطًا لكل أداة. أدوات تنفيذ الكود وإدارة الخوادم والأسرار يمكن عرضها بفيديو وبيئة معزولة وتجربة محلية قابلة للإعادة. لا تفتح تنفيذًا عامًا غير محدود لمجرد وجود رابط بورتفيليو.
+A hosted demo is optional. Code execution, server administration, and secret management can be demonstrated through a recording and a reproducible isolated environment. Keep public demo access scoped to the activities it needs.
 
-## التنفيذ والمتابعة
+## Implementation and follow-up
 
-- حوّل P0 إلى مهام صغيرة، لكل منها سلوك متوقع ومعيار قبول واختبار مناسب.
-- ابدأ بتأكيد الموجود؛ عدّل هذه الخطة عندما يغلق بند بدليل مرتبط بcommit أو PR.
-- سجّل مصدر بيانات الديمو، والـSHA الذي التُقطت منه الأدلة، وحدود التجربة الفعلية.
-- راجع الفرق النهائي وانتظر نجاح الفحوص المطلوبة لنفس SHA قبل الدمج، مع احترام حماية الفرع.
-- إذا كان التعديل وثائق فقط ولا يوجد فحص ينطبق عليه، سجّل التحقق من محتواها وروابطها؛ لا تسجل اختبارات تشغيل لم تُنفّذ.
-- لا تُنشر أرقام أداء أو ادعاءات أمان أو جاهزية إنتاج بلا دليل مناسب.
+- Break P0 into tasks with expected behavior, acceptance criteria, and a suitable test.
+- Verify existing functionality first. Update this plan when evidence tied to a commit or PR closes a milestone.
+- Record the fixture source, the revision used for evidence, and the tested limits.
+- Review the final diff and verify required checks for its exact SHA before merging. Follow branch protection.
+- For documentation-only changes with no applicable workflow, verify content and links and record the checks actually performed.
+- Tie performance, security, and readiness claims to supporting evidence.
 
-## خطط المستودعات الأخرى
+## Repository roadmap index
 
-| المستودع | الخطة |
+| Repository | Roadmap |
 |---|---|
 | brand-assets | [PORTFOLIO_ROADMAP.md](https://github.com/The-Null-Catchers/brand-assets/blob/main/PORTFOLIO_ROADMAP.md) |
 | DocMind | [PORTFOLIO_ROADMAP.md](https://github.com/The-Null-Catchers/DocMind/blob/main/PORTFOLIO_ROADMAP.md) |
