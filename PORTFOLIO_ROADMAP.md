@@ -10,7 +10,7 @@
 
 **الموجود المتحقق:** `profile/README.md` يعرض المؤسسة والمشاريع والتقنيات. المستودع مساند للبورتفيليو، وليس تطبيقًا يحتاج database أو API.
 
-**P0 — واجهة المؤسسة:** حدّث الصفحة لتبدأ بثلاثة مشاريع رئيسية. لكل مشروع: المشكلة، صورة، رابط source، فيديو، طريقة تجربة، وحالة واضحة مثل «شريحة عرض موثقة» أو «قيد التطوير». لا تعرض كل المشاريع بمستوى نضج واحد.
+**P0 — واجهة المؤسسة** جهّز بطاقات عرض لثلاثة مشاريع بعد تثبيت روابط أدلتها ومسارات إعادة التجربة.
 
 **P1 — عملية قابلة للتكرار:** أضف قالب issue للمشكلة/الدليل/معيار الإنجاز وقالب PR للتغيير/التحقق/الأثر، بعد مراجعة القوالب الموجودة إن أضيفت لاحقًا. أضف index لخريطة الخطط، وفحص روابط يمنع بقاء روابط demo أو artifacts منتهية.
 
@@ -19,6 +19,16 @@
 **معيار الإنجاز:** الزائر يصل خلال نقرتين إلى تجربة ودليل لواحد من المشاريع الرئيسية، الروابط صالحة، والإنجاز منسوب إلى أصحابه دون اختراع فريق أو مستخدمين أو نتائج.
 
 **الديمو:** صفحة المؤسسة → مشروع رئيسي → walkthrough → architecture → CI/release. **الأدلة:** [Profile](https://github.com/The-Null-Catchers/.github/blob/main/profile/README.md).
+
+## الدفعة التالية
+
+| ترتيب التنفيذ | المستودعات | المطلوب قبل العرض |
+|---|---|---|
+| تثبيت أدلة المشاريع الأقرب إلى العرض | [DocMind](https://github.com/The-Null-Catchers/DocMind/blob/main/PORTFOLIO_ROADMAP.md)، [ChessCoach-AI](https://github.com/The-Null-Catchers/ChessCoach-AI/blob/main/PORTFOLIO_ROADMAP.md)، [GeoPulse](https://github.com/The-Null-Catchers/GeoPulse/blob/main/PORTFOLIO_ROADMAP.md) | تسجيل موثق من إصدار معروف، وتعليمات تجربة، وذكر حدود السيناريو المعروض. |
+| إغلاق فجوات التحقق على الأجهزة والأدلة العربية | [FitTrack](https://github.com/The-Null-Catchers/FitTrack/blob/main/PORTFOLIO_ROADMAP.md)، [TaskPilot](https://github.com/The-Null-Catchers/TaskPilot/blob/main/PORTFOLIO_ROADMAP.md)، [Masroof](https://github.com/The-Null-Catchers/Masroof/blob/main/PORTFOLIO_ROADMAP.md) | دليل الجهاز أو OCR الفعلي، وسجل نتائج مرتبط بـSHA. |
+| اعتماد نطاق مشروع جديد | [StockFlow](https://github.com/The-Null-Catchers/StockFlow/blob/main/PORTFOLIO_ROADMAP.md) | مراجعة المسودة واعتماد الأدوار وسياسة الرصيد قبل بدء الكود. |
+
+تُنشر بطاقة المشروع عند وجود رابط خطة ورابط إصدار أو تشغيل يمكن التحقق منه، وطريقة لإعادة التجربة. تفحص الروابط من جلسة زائر. تظل الخطط الأصلية للمشاريع الأخرى متاحة في الفهرس أدناه.
 
 ## بوابة قبول نسخة البورتفيليو
 
