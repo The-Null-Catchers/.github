@@ -135,3 +135,7 @@ Brand assets and project identity resources are maintained here:
 <sub>Building engineering-focused software, one edge case at a time.</sub>
 
 </div>
+
+## Portfolio roadmap
+
+See the [repository-specific portfolio roadmap](https://github.com/The-Null-Catchers/.github/blob/main/PORTFOLIO_ROADMAP.md) for priorities, acceptance criteria, demo scope, and release evidence. This complements the existing implementation and status documentation.
