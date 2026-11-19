@@ -53,6 +53,16 @@ The goal is simple: **build software that demonstrates how real systems are desi
 | [GeoPulse](https://github.com/The-Null-Catchers/GeoPulse) | Realtime geospatial tracking platform | GPS ingestion, geofencing, route history |
 | [EventCore](https://github.com/The-Null-Catchers/EventCore) | Distributed event streaming platform | Topics, partitions, offsets, consumer groups |
 
+## Reproduce the demos
+
+| Project | What the run verifies | Reproduce | CI evidence |
+|---|---|---|---|
+| DocMind | Arabic OCR, citation to the source page, structured extraction, and workspace isolation with synthetic files | [Walkthrough](https://github.com/The-Null-Catchers/DocMind/blob/6c201c9b4f51d8f5c2c90812cacdf7e85328b0bb/docs/portfolio-demo.md) | [Passing browser run](https://github.com/The-Null-Catchers/DocMind/actions/runs/44441795134) |
+| ChessCoach AI | A synthetic PGN analyzed by Stockfish, a forced mate and best line in review, and mastery retained when training is reopened | [Evidence guide](https://github.com/The-Null-Catchers/ChessCoach-AI/blob/9b8a6defde198e2da0c2fe29884222e2a5d40b2a/PORTFOLIO_EVIDENCE.md) | [Passing evidence capture](https://github.com/The-Null-Catchers/ChessCoach-AI/actions/runs/44442303199) |
+| GeoPulse | A synthetic GPS batch retried without duplicate points, with verified trip, geofence, and stop timestamps | [Replay guide](https://github.com/The-Null-Catchers/GeoPulse/blob/61d4628ebba279863ce794f8db5bee0389de7bfc/docs/REPLAY.md) | [Passing browser run](https://github.com/The-Null-Catchers/GeoPulse/actions/runs/44442264670) |
+
+The run pages record the tested revisions. Downloadable artifacts follow each repository's retention policy.
+
 ---
 
 ## Engineering Stack
